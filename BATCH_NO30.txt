@@ -1,0 +1,515 @@
+Name  		: 		Mr.Thirumalesh[Sir]
+Experience  : 		8+years[4-Companies]
+TechStack   :   Html,css,js,boostrap,Angular,React
+                Java,java8,J2EE(JDBC,JSP,SERLETS)
+				,Spring,Springboot,Microservices.
+				AWS,AZURE,GCP
+				AI--> GITGUB COPILOT
+				Mysql,Oracle,Pgsql,Mongodb.
+
+Role        : 	TechLead
+------------------------------------------------------------
+Java fullstack program
+------------------------------------------------------------
+1)Backend Technlogies:
+--------------------
+			Java,java8,J2EE(JDBC,JSP,SERLETS)
+			,Spring,Springboot,Microservices.
+
+2)Frontend Technlogies
+-----------------------------------
+			Html,css,js,boostrap,Angular,React.
+
+3)RealTime Projects[E-Commerce]  + Realtime Tools
+-------------------------------------------------
+
+Realtime Tools[15+]:
+--------------------
+JIRA : Task/work getting software.
+
+Github/gitlab/bitbucket: Source code repository server.
+
+Maven/Gradle : Build automation tools.
+
+Docker	:  Containerization sofware[100]
+
+K8S  :  Archastration tool.
+
+JENKINS : CICD
+
+JMETER : It used to check stability & responisiveness of the application.
+
+JUNIT :1..5,6...100
+
+Mocking[Power Mock,Easy Mock,Wire Mock].
+
+POSTMAN: Rest API testing tool
+
+SWAGGER: API Testing tool....15..20+
+
+AI-MODULE:
+----------
+
+AI--> GITGUB COPILOT
+Sprint = 14
+
+Spring AI.
+ChatGPT+GEMINI+DEEPSEEK.
+
+longuage: Language is a mediator for the communication.
+		Human Languages:
+		Programming languages:
+		
+Human Languages:
+-------------------
+If one person wants to communicate with another person 
+we are having human languages in the market.
+
+Ex: English,Telugu,Hindi,Tamil......
+
+Programming languages:
+----------------------
+If one person wants to communicate with machine/Computer 
+we are having programming languages in the market.
+
+Ex: C,C++,Java,Python,Php........
+
+
+Java:
+-----
+Java is programming language.
+Java is a free sofware.
+James Gosling is the team lead at the time of java program development.
+The firtversion of the java came into the market in the year of 1996.
+Java language developed by sun-mircrosystem.
+Before java6th version java was under the licence of Sunmicrosystem
+From java java 6th version onward java is under the licence oracle company.
+
+
+Java Feature:
+-------------
+Simple: If we use the c,c++ we are having complex topix
+		1)Pointers
+		2)Memory Management.   	
+		3)Execption Hanling[1,2,3,4,5,......50,,,,,100]
+		4)Operator overloading
+Platform independent:
+---------------------
+Once we develop our application, We can run on any OS avaialble in the market.
+
+OOPS:
+-----
+    Object oriented programming system.
+	Everything we are going to represent in object format.
+	
+	4-Pillors of java/oops:
+	----------------------
+	1)Polymorphism
+	2)Encapsulation
+	3)Abstration
+	4)Inheritence
+	
+	1)Polymorphism:
+	---------------
+	Poly : Many
+	Morphism : Form
+	One task we can perform multiple ways called polimorphism.
+	
+	Ex: a+b,a+b+c,a+b+c+d......
+	
+	
+	2)Encapsulation:
+	-----------------
+	->Wrapping of variables and methods in a single unit of class called as encapsulation.
+	->Class[Variables  + Methods]
+	
+	Ex: capsul
+	
+	3)Abstration:
+	-------------
+	Hiding the unnecessory functionalities, Showing only  Required functionalities.
+	
+	Ex: ATM Machine
+	
+	
+	4)Inheritence:
+	--------------
+	Getting the properties from parent to child called as inheritence.
+	Getting the properties from parent class to child class called as inheritence.
+	Getting the properties from super class to sub class called as inheritence.
+	
+	 1) Single Inheritence[1child---> 1parent]
+	 2) multilevel Inheritence[1child---> 1parent->grandparent]
+	 3) Hierachial Inheritence[1child,child2---> 1parent]
+	 
+	 4) Hybrid Inheritence[SI+MLL]			-->	class(X)		-> interfaces
+	 5) Multiple Inheritence[child--->parent1,parent2...]-->class(x)-> interfaces
+	
+Multithredded:
+--------------
+Single Tasking: If we do only one task at a time called Single tasking.
+Multi Tasking : If we do multiple tasks at time called multitasking.
+
+
+Portable(changable):
+--------------------
+If we develop java application in the one machine we can easily  run on another machine.
+	
+Robust(Strong):
+---------------
+				1) Automatic memory management
+				2) Exception Hanling
+				
+Moral:WORA-> Write once run any where.
+------
+
+Java sofware installation process:
+---------------------------------
+Go to the browser
+search--> 8 software free download
+Java SE 8 Archive Downloads (JDK 8u202 and earlier)
+click on --> jdk-8u202-windows-x64.exe
+it will open the pop page --> click on check box --> login
+
+
+NOTE: If we are doing java installtion first time, we should be create the account
+      If we are having already accoung, just login.
+	  
+
+java Path setup:
+----------------
+click on --> search edit system environment variables
+		 --> enviromnet variables
+		 --> user variables + system variables
+		 --> go to the system variables 
+		 --> Click on the path
+		 --> Click on edit
+		 --> click on new
+		 --> past : C:\Program Files\Java\jdk1.8.0_202\bin
+		 
+		 
+JDK,JRE,JVM:
+-------------
+
+JDK: Java development kit.
+	 JDK contains set of tools[54 tools]
+	 By using these tools we can develop the application.
+	 Jdk consists of JRE,JVM,DEVELOPMENT TOOLS
+	 It is available physically
+	 
+JRE : Java Runtime environment.
+	  JRE is providing the environment/place for the execution of java program.
+      It is available physically
+	  JRE consists of JVM,Java packages,run time libraries.
+
+JVM :  Java virtual machine
+       It is available virtually, we are not able to see with our eyes.
+	   Jvm is take the bytecode and it will validate the bytecode and convert machine
+	   understandable format.
+	   Jvm is allocate/provide the memory whenever executing the program
+	   once java program execution got complete it will de-allocate/delete the memory.
+	 
+	 
+	 
+	 
+
+Variables
+DataTypes
+Naming convention
+Keywords
+Operators
+Loops
+Conditional statements
+String
+Arrays
+Oops
+Collections
+Java8
+Multithredding
+File Handling
+
+Variables:
+----------
+Variables are are used to store the data/values.
+Int,char,boolean,double,float,byte.........
+
+1)Declation variables:
+--------------------
+int number;
+char grade;
+boolean isSave;
+double price;
+float number;
+byte number;
+System.out.println(isSave); -->false
+
+2)Initiolization variables:
+--------------------------
+
+
+
+
+Directly we can declare the variable & we can initiolize the data.
+----------------------------------------------------------------------
+int number=100;
+char grade='A';
+boolean isSave=true;
+double price=100.50;
+float price=100.50f;
+byte number=124;
+
+1)Primitive
+2)Non-Primitive datatype (OR) Referenced Datatypes (OR) Wrapper classes
+
+
+1)Primitive:
+------------
+1)Numeric datatype
+2)Non-Numeric
+
+1)Numeric datatype
+--------------------
+1)Integer datatype 					===>[byte,short,int,long]
+2)FlotingPoint datatype				===>[float,double]
+[Decimal datatypes]
+
+2)Non-Numeric
+--------------------
+1) char
+2) boolean
+
+
+2)Non-Primitive datatype (OR) Referenced Datatypes (OR) Wrapper classes:
+------------------------------------------------------------------------
+Arrays 
+String
+Object 
+
+Employee
+Product
+
+
+
+1)Integral datatype 					===>[byte,short,int,long]
+
+byte:
+-----
+It will store the data either +/- numbers.
+the size of byte data typee is 1byte[8BITS]
+default value: 0
+
+
+short:
+-----
+It will store the data either +/- numbers.
+The size of byte data typee is 2bytes[16BITS]
+default value: 0
+
+int:
+----
+It will store the data either +/- numbers.
+The size of byte data typee is 4bytes[32BITS]
+default value: 0
+
+long:
+----
+It will store the data either +/- numbers.
+The size of byte data typee is 8bytes[32BITS]
+default value: 0
+
+
+2)FlotingPoint datatype[decimal]			===>[float,double]
+--------------------------------------------------------
+float:
+------
+It will store the decimal data either +/- decimal numbers.
+The size of byte data typee is 4bytes[32BITS]
+default value: 0.0
+
+double:
+------
+It will store the decimal data either +/- decimal numbers.
+The size of byte data typee is 8bytes[64BITS]
+
+default value: 0.0
+
+2)Non-Numeric:
+---------------
+char:
+-----
+It is used to only one charecter
+The size of the char data type is 2bytes
+
+default value: \u0000(empty)
+
+boolean:
+--------
+It will store only boolean data(true/false)
+The size of the char data type is 1bit
+
+default value: false
+
+Note : 1 Byte = 8 bits
+
+
+Non-Primitive:
+--------------
+String
+Arrays
+Object...
+
+
+String:
+------
+-->String is nothing but group of alphanumeric character.
+-->[0-9][a-z][A-Z][!@#$%^....]
+--> default value: null
+
+String str="helloA@@111";
+
+Object:
+--------
+It is super/parent class for the all the classes.
+--> default value: null
+
+Methods:
+--------
+toString()
+equals()
+finalize()
+hashCode()
+clone()
+getClass()
+wait(),wait(1param),wait(2param)
+notify()
+notifyAll()
+
+
+Naming convention(Identifiers):
+-------------------------------
+How we can write the names of the componensts in the java.
+componensts=variables,methods,classes,interfaces,constants
+
+[a-z]
+[A-Z]
+[0-9][Execpt first postion we can use any where]
+[_$]
+[when ever writing the component names don't use the keywords]
+
+variables:
+----------
+variables names start with lowercase letters.
+
+int number=10;[right]
+int numberOneTwo=10;[right]
+int 8number=10;(wrong)
+int _numbe$r=10;[right]
+int @numbe$r=10;[wrong]
+
+methods:
+--------
+methods names start with lowercase letters.
+
+public void add(){}
+public void addOfTwoNumbers(){}
+public void 9addOfTwoNumbers(){} //(X)
+public void _addOfTwo$Numbers(){}
+public void %addOfTwo$Numbers(){}
+
+
+classNames/InterfaceNames:
+----------------------------
+Class names and interfaces names both follows the same rules
+
+Everyword first characters should be capital letter.
+
+Employee
+Product
+Books
+Teacher
+
+EmployeeRepository
+ProductRepository
+BooksRepository
+TeacherRepository
+
+Constants:
+----------
+All the letters & Words should be capital
+If we are having more then one words, we should be seperate with underscore(_).
+
+  public static final String CONSTANT_STRING = "some constant";
+
+  public static final int CONSTANT_INTEGER = 5;
+  
+  public static final int PI = 3.14;
+  
+  
+Java programming structure:
+----------------------------
+package statements[0-1 time]
+import statements[0-n time]
+classes[1-n times]
+variables[0-ntimes]
+methods[0-ntimes]
+
+
+Operators:
+-----------
+Operator is used perform operations on the operands
+
+a+b
++ --> operation
+a,b--> operands
+
+Arithematic Operators[+,-,*,/,%]
+Relational Operators[!=,==,<=,<,>=,>]
+Logical Operators[&&,||,!]
+Assignment Operators[=,+=,-=,/=,%=]    
+Ternary Operator  boolean isEligible=age>=18?true:false;
+Unery Operator[increment[pre-increment(++a),post-increment(a++)]
+						,decrement[pre-decrement(--a),post-decrement(a--)]
+Bitwise Operators
+
+
+Arithematic Operators:
+----------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+		
+		
+
+
+
+
+

@@ -1,0 +1,34 @@
+package in.nextit;
+
+public class Employee {
+	
+	
+	
+//	 byte b=10;
+//	static short s=200;
+//	static int i=500;
+//	static long l=30000;
+//	static float f=100.0f;
+//	static double d=200.20;
+//	
+//	
+//	static byte b1;
+//	static short s1;
+//	static int i1;
+//	static long l1;
+//	static float f1;
+//	
+	
+	
+	
+	
+	
+	public static void main(String[] args)
+	{
+		
+		 byte b;
+		 System.out.println(b);
+		
+	}
+
+}
