@@ -11,7 +11,7 @@ public class Example05 {
 //		- isBlank(): "  ".isBlank() → true (Java 11+)
 
 		String name = "VersionIt";
-		String name1 = "                  ";
+		String name1 = "   ";
 		System.out.println(name.length());
 		System.out.println(name1.length());
 
