@@ -1106,7 +1106,228 @@ String name=new String("Hello43432*^*%$^$#");
 
 
 
+1. Write a program to print a string entered by the user.
 
+String name="hello";
+
+  ClassName name=new ClassName();
+  Scanner scr=new Scanner(System.in);
+  
+  -------------------------------------------
+  
+  methods
+  constructors
+  this
+  super keyword
+  access modifiers[private,default,protected,public]
+  
+  OOPS:
+  -----
+  Class
+  Object
+  Inheritence
+  Polymorphism
+  Abstraction
+  Encapsulation
+  
+  Class:
+  -----
+  class is a blueprint or plan.
+  Plan= Data Members(variables) + Methods
+  
+  
+   Object:
+   -------
+   It is instances of the class.
+   Per one class we can create any no of objects.
+   
+   
+   Inheritence:
+   -----------
+   Classes:
+   ---------
+		Supported:
+		-----------
+		1)Single Inheritance(Single level)[P-->C]
+		2)Multi level Inheritance[GP-->P-->C-->GC]
+		3)Hierarchial[P-->C1,C2,..CN]
+		
+		Not-Supported:
+		-----------
+		4)Hybrid : [ SINGLE + MULTILEVEL, SINGLE + Hierarchial,Hierarchial + MULTILEVEL ]
+		5)Multiple[P1,P2-->C1]
+		
+   Interafaces:
+   -------------
+		We can achieve:
+		--------------
+		4)Hybrid
+		5)Multiple
+		
+    
+	
+	Polymorphism:
+	--------------
+	Poly : Many
+	Morph: Forms
+	
+	If we perform single task multiple ways called Polymorphism.
+	
+	1)Method Overloading(Compiletime Polimorphism)(Static Binding)
+	2)Method Overriding (Runtime Polimorphism)(Dynamic Binding)
+	
+	
+	Abstraction:
+	------------
+	Hiding internal/unnecessory details/functionalites, showing required details/functionalites
+	abstraction.
+	
+	1)Abstract Class[abstract methods + non-abstract methods]
+	2)Interfaces[abstract method]
+   
+
+	Encapsulation:
+	-------------
+	Wrapping of variables + methods in a single unit of class.
+	
+	private variables
+	public methods
+	validations
+	
+	 Methods:
+	 --------
+	 Method is a block of code. It is used to perform the action.
+	 
+	 A method is like a function inside a class.
+
+	It helps break the program into smaller, reusable pieces.
+
+	It improves code reusability, readability, and maintainability.
+	 
+	 
+	 Syntax:
+	 -------
+	  public void add(int a,int b)
+	 {
+	 
+	 }
+	 
+	  public void substract(int a,int b)
+	 {
+	 
+	 }
+	 
+	 
+	 
+Types of Methods in Java:
+-----------------------
+
+1)Predefined Methods (Library Methods)
+------------------------------------
+
+Already defined in Java libraries.
+
+Example: Math.max(10, 20), System.out.println()
+
+
+2)User-defined Methods
+---------------------
+1)without parameters without return type.
+2)with parameters without return type.
+3)without parameters with return type.
+4)with parameters with return type.
+
+
+Created by programmers.
+
+Example: add(), calculateArea() 
+	 
+	 
+	
+   Syntax:
+   -------
+		ClassName name1=new ClassName();
+		
+		add
+		substraction,multiplication,diviosion,remainder.
+		
+
+------------------------------------------------------------
+ 1.Create "Employee" class
+      --instance fields/variables
+         name,age,salary
+      --Methods
+         - takeInputs
+         - printData
+Create a main class "Company"
+        -Create employee objects
+        -call methods
+-----------------------------------------------------
+ 2.Create "Student" class
+      --instance fields
+         name,age,marks
+      --Methods
+         -takeInputs
+         -printData
+Create a main class "College"
+        -Create Student object
+        -call methods
+-------------------------------------------------
+ 3.Create "Product" class
+      --instance fields
+         name,price
+      --Methods
+         -takeInputs
+         -printData
+Create a main class "Shop"
+        -Create Product object
+        -call methods
+	 
+
+
+  constructors:
+  -------------
+  It is also a block of code to perform specific action.
+  Rule:
+  -----
+  Class name and constructor name should be same.
+  We are not able to use re-turn type in the constructor.
+  
+  1)Default Constructor
+  2)0-Param Constructor
+  3)Param-Constructor
+  
+  1)Default Constructor
+  -----------------------
+  ->If we don't have the 0-Param,Pram constructor at the time default constructor available.
+  
+  -> For the object creation compiler create the default constructor.
+  
+  -> ClassName(){not able to write any statement here}
+  
+  
+  2)0-Param Constructor:
+  -----------------------
+  -> If wants to initiolize the default values we are going  to use the 0-param constructor.
+  
+  ->  ClassName(){we can write statements....}
+  
+  
+  3)Parameteraise Constructor
+  ----------------------------
+  -> If we wants to initiolize the data to the values/object then we can use the param constructor.
+  
+  Syntax:
+  -------
+  g_var1
+  g_var2
+  g_var3
+  -> ClassName(l_var1,l_var2,l_var3)
+  {
+    g_var1=l_var1;
+	g_var2= l_var2;
+	g_var3=l_var3;
+  }
 
 	
 
