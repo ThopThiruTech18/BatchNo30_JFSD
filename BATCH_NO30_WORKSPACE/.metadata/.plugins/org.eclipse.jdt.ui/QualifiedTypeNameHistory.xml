@@ -5,4 +5,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="in.versionit.methods1.Employee"/>
     <fullyQualifiedTypeName name="in02.versionit.constructor.Employee"/>
+    <fullyQualifiedTypeName name="in03.versionit.inheritence.CollegeMember"/>
+    <fullyQualifiedTypeName name="in03.versionit.inheritence.Employee"/>
+    <fullyQualifiedTypeName name="in03.versionit.inheritence.Student"/>
 </qualifiedTypeNameHistroy>

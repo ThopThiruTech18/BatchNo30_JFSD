@@ -6,8 +6,6 @@ public class Employee {
 	int age;
 	double salary;
 
-	
-
 	Employee(String l_name, int l_age, double l_salary) {
 
 		name = l_name;

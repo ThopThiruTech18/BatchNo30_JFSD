@@ -1302,20 +1302,26 @@ Create a main class "Shop"
   ->If we don't have the 0-Param,Pram constructor at the time default constructor available.
   
   -> For the object creation compiler create the default constructor.
+      ClassName name=new ClassName();
   
+  Syntax:
+  -----
   -> ClassName(){not able to write any statement here}
   
   
   2)0-Param Constructor:
   -----------------------
   -> If wants to initiolize the default values we are going  to use the 0-param constructor.
-  
+ 
+
+ Syntax:
+  ----- 
   ->  ClassName(){we can write statements....}
   
   
   3)Parameteraise Constructor
   ----------------------------
-  -> If we wants to initiolize the data to the values/object then we can use the param constructor.
+  -> If we wants to initiolize the data/objects then we can use the param constructor.
   
   Syntax:
   -------
@@ -1331,10 +1337,67 @@ Create a main class "Shop"
 
 	
 
+this:
+-----
+By using this keyword we can access the same class properties.
+
+We can access the global variables.
+We can call the methods.
+We can call 0-Param Constructor.
+We can call Param Constructor.
+It will differentiate data from local variables & Global variables(instance varailes)
+
+
+Note: Whenever calling the constructors. constructor call should be first postion.
+
+
+super:
+-----
+By using super keyword we can access the parent class properties.
+				->We can access the parent class global variables/instance.
+				-> We can call the parent class methods.
+				->We can call parent class 0-Param Constructor.
+				-> We can call parent class Param Constructor.
+				
+				
+				
+----------------------
+Inheritence:
+----------------------
+Q1)
+Home work questions
+1)CollegeMember(super)==>name,id
+    Student(sub)--> marks
+    Employee(sub)--> salary
+College(main class)
+
+ */
+
+
+//c c -->extends
+//i i -->extends
+//i c -->implement
 
 
 
 
+
+ 1)CollegeMember
+     Student
+    Employee
+College(main class)
+
+
+2)ShoppingItem(productId,ProductName)
+   MedicalItem(medicalShopName),printData()
+   ElectronicItem(electricalShopName),printData()
+Shop(main class)
+
+
+3)Account
+   SavingsAccount
+  CurrentAccount
+Bank(main class)
 
 
 
