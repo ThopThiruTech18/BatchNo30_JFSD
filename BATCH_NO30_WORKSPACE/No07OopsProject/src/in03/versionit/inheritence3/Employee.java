@@ -14,7 +14,7 @@ public class Employee extends CollegeMember{
 		
 	}
 	
-	void printData()
+	public void printData()
 	{
 		System.out.println(super.name);
 		System.out.println(super.id);

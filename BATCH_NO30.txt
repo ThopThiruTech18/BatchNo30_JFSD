@@ -1400,14 +1400,488 @@ Shop(main class)
 Bank(main class)
 
 
+Access Modifiers/Specifiers
+-----------------------------
+private 		: Withing in the class we can acces var,methods,constructors
+default			: Withing in the package we can acces var,methods,constructors
+protected       : Withing the package & outside package also we can access [Inheritence+subpackage]
+public          : We can access anywhere.
 
 
+1)Class
+2)Object
+3)Polymorphism
+4)Inheritence
+5)Encapsulation
+6)Abstraction
+
+
+
+1)Class:
+--------
+Class is blueprint or plan.
+
+class Employee{
+
+int empId;
+String empName;
+Double empSal;
+void printEmpData()
+{
+}
+}
+
+2)Object:
+---------
+It is a instance of the class
+It is a realword entity.
+Per one class we create any no of objects.
+Student class --> multiple students(multiple objects)
+
+
+3)Polymorphism:
+----------------
+Poly =	many
+Morphism = forms
+
+1)Method overloading,Compile time polimorphism,Static Binding,,early binding.
+2)Method overriding,Runtime Polymorphism,Dynamic Binding,Late Binding.
+
+4)Encapsulation:
+----------------  -18
+Wrapping of var & methods into the single unit of class Encapsulation.[Validations]
+
+
+5)Inheritence:
+---------------
+Getting the parent properties in the child class.
+
+1) Single Inheritence[1p -> 1c]
+2) Multilevel Inheritence[Level by level][gp->1p -> 1c, gp->1p -> 1c->1gc]
+3) Hierarchial inheritence :[1p --> c1,c2,,,,n-childs]
+
+4) Muliple inheritence [p1,p2..n-parents--> 1child]
+5) Hybrid inhetence[Combination of any 2 inheritences]
+
+
+6)Abstraction:
+---------------
+Hiding unnecessory details and showing the required details that is called as Abstraction.
+
+1) Abstract class : 1% to 100%
+2) Interfaces     : 100%
+
+
+1) Single Inheritence[1p -> 1c]
+-------------------------------
+an inheritence which is having only one parent class and 
+only one child class called as single inheritence.
+
+EX:	Parent --> Child
+
+
+2) Multilevel Inheritence[Level by level][gp->1p -> 1c, gp->1p -> 1c->1gc]
+------------------------------------------
+An inheritence having more then only level called as multilevel
+
+Ex:	GrandParent	->	Parent -> Child
+
+3)Hierachil Inheritence:
+-----------------------
+Inheritence which is having only one parent multiple childs called as Hierachial inheritence.
+
+
+ Ex: Parent --> Child1,Child2,Child3...Childn.
+ 
+ 4)Muliple inheritence:
+ ----------------------
+ Inheritence which is having multiple parents and only one child called as Muliple inheritence.
+ 
+ 
+ Ex:Parent1,Parent2...ParentN ---> Child
+ 
+ 5) Hybrid inhetence[Combination of any 2 inheritences]
+ -----------------------------------------------------
+ Combination of any two inheritences is called as hybrid inheritence.
+ 
+ 
+ Ex: Hierarchial + Multilevel
  
  
  
+ 5)Encapsulation:
+ ---------------
+ Wrapping of variable and methods into single unit of class called as a Encapsulation.
+ 
+ Variables --> Private
+ Methods   --> Public
+ 
+ 1)variables should be private
+ 2)getter methods should be public(read access)
+ 3)setter methods should be public(Update/Insert)
+ 4)Validations age > 0, age >=18, age >= 60, salary > 0;
  
 
 
+6)Abstraction:
+-------------
+Hiding the unnecessory data showing the necessory data.
+
+Ex: ATM,CAR,LAPTOP.
+
+1)Interfaces 
+2)Abstract class
+
+1)Interfaces 
+--------------
+-->By using interface keyword we can create the interfaces.
+-->By using interface we can achieve 100% abstraction.[Before java1.8][abstract methods]
+-->In the java1.8 they introduced default method and static method(non-abstract methods)[1%-100%]
+
+
+2)Abstract class
+----------------
+-->By using abstract keyword we can create the Abstract class.
+-->By using Abstract class we can achieve 1%-100% abstraction.
+
+
+Collections:
+------------
+
+Variable:
+--------
+Variable is used to store the data/values, 
+But it will store only one value at a time.
+
+int a=10;
+int a1=20;
+int a2=30;
+...100=1000;
+
+
+10 values
+100 values 
+1000 values 
+
+Arrays:
+------
+It is used to store the multiple values at a time.
+
+int[] a={1,2,3,4,5,6,7,8,9,10};
+char[] c={'a','b','c'};
+
+We can store only homogeneous data/values
+It is not having readymade methods support.
+
+
+
+Arrays                               Collections
+-------------------------------------------------------
+1)Fixed size                           Dynamic Size/Growable
+  int[] a=new int[10];                 ArrayList list=new ArrayList();
+  
+2) Homogenoues Data                    2) Homogenoues & Heterogenous data
+int[] a={1,2,3,4,5,6,7,8,9,10};           ArrayList list=new ArrayList(10);	
+										  list.add(100);
+char[] c={'a','b','c'};					  list.add("hari");
+
+3) Methods support not avaiable        3) Methods support  avaiable
+
+4) Primitive & Non-Primitive		   4) Non-Primitive/Object type/Referenced type
+	int[] a=new int[10];                ArrayList<Integer> list=new ArrayList<>();
+	Integet[] a=new int[10]; 
+	   
+5)Based on the index position           5)Based on index posion & get method
+search/get the data							list.get(9)--> 100
+int[] a={1,2,3,4,5,6,7,8,9,10};
+a[0]--> 1
+
+6) Good Performance                     6) Compare to the arrays less Performance.
+
+7)Supported (e.g. int[][] arr)			7)Only single-dimensional
+
+Use cases	Known fixed-size, 
+performance-critical						Flexible, frequently modified lists
+	
+	
+	
+	
+primitive     Non-Primitive(Object Type,Reference),Wrapper classes
+----------------------------	
+int     ->  Integer
+char    ->  Character
+float   ->  Float
+double  ->  Double
+booleab ->  Boolean
+
+
+Collections:
+-----------
+Framework: Semi-Developed project is called as a Framework.
+			Interfaces     
+			Classes 
+			Methods
+			
+
+List: 
+----	
+It is used to store the group of objects(It will allow the duplicate values/objects)	
+ArrayList
+LinkedList
+Vector
+Stack
+
+Set : 
+----
+It is used to store the gruop of object (It will not allow the duplicate values/objects)
+
+HashSet
+LinkedHashSet
+TreeSet
+NavigableSet
+
+Queue: 
+------
+It is used to store the group of objects(FIFO)
+PrioriryQueue
+
+Deque: 
+------
+It is used to store group of objects 
+			1)ArrayDeque
+
+Map:
+----
+It is used to store the group of objects(key-value pair)
+HashMap
+LinkedHashMap
+TreeMap
+
+HashTable
+
+SortedMap:
+---------
+It is used to store the group of objects(intenally it will sort the data).
+
+TreeMap
+
+
+
+List: 
+----	
+It is used to store the group of objects(It will allow the duplicate values/objects)	
+
+
+ArrayList:
+-----------
+It is available in java.util package.
+ArrayList implementing the properties from List interface.
+Default capacity : 10
+DataStructure : Growable Array
+
+
+Type of Constructors:
+----------------------
+	 ArrayList list1=new ArrayList(); //default capacity = 10
+	 ArrayList list2=new ArrayList(50);
+	 ArrayList list3=new ArrayList(list);
+	 
+
+
+
+Type of Iterations:
+-------------------
+for loop 
+for-each loop 
+method reference 
+lambda expression 
+iterator
+listIterator 
+enumaration
+splitorator
+
+
+Cursors:
+---------
+Iterator            ---> Forward
+ListIterator        ---> Forward & Backword
+Splitorator         ---> Forward
+Enumarator
+
+
+
+LinkedList
+Vector
+Stack
+
+
+Type of Methods:
+-----------------
+size() --> to check the size of the arraylist object
+
+
+When we are going to use the arraylist[searching]:
+----------------------------------------
+when ever performing the searchin operation we can use arraylist class 
+when ever performing insertion & deletion operation not recomended arraylist class
+Internally it will perform shifting operation 
+When we insert the data it will perform right shifting 
+when we delete the data it will perform left shifting
+
+
+LinkedList:
+-----------
+It is available in the java.util
+It is implementing from the list interface
+It will follow the double linked list datastructure
+
+USE CASE:When ever performing insertion & Deletion operation we can use the LinkedList class
+
+Types of constructors 
+---------------------
+LinkedList list=new LinkedList();
+Types of methods
+
+
+Stack:
+------
+It is available in the java.util
+It is implementing from the list interface
+It will follow the LIFO order
+
+method:
+-------
+push()  	:: add()
+pop()   	:: remove()
+peek()  	:: top values
+search()	:: 
+
+
+Java8
+-----
+Before java8 our java is OBJECT ORIENTED programming language.
+From java8 onwards java is also called as Funcational programing language.
+
+FeatureS:
+---------
+Interface[Default method + Static method] 
+
+Funcional Interfaces[Predicate,Consumer,Supplier,Function][SAM]
+ 
+Lambda epressions[ -> ]
+
+Method Referece & Constructor Reference.
+
+StringJoner
+
+DATE & TIME API
+
+Optional Class 
+
+Comparable & Comparator
+
+Nashorn JavaScript Engine[javascript --> java]
+
+forEach Method
+
+Parallel Streams
+
+Stream API.
+
+Interface[Default method + Static method] 
+----------------------------------------
+Interface is similar to the class
+
+Its having only  abstract methods till java1.7
+
+If we implemetns the interface, 
+its mandatory to override all the abstract methods
+available in the interface.
+
+abstract method: The method which dont have the body.
+
+From java 8 onwards we can write non-abstract methods also in the interface.
+
+non-abstract methods should be 
+				1)Default 
+				2)Static
+Default methods we can override in the implementation class
+
+Static methods we can't override in the implementation class.
+
+Ex:
+----
+          interface Vehicle
+		  {
+		   void startVehicle();
+		   void electricalEngine();
+		  }
+		  
+		  Bus implements Vehicle
+		  {
+			@override
+			public void startVehicle()
+			{
+		  
+			}
+			@override
+			public void electricalEngine()
+			{
+		  
+			}
+			
+		  
+		  }
+		  Car implements Vehicle
+		  {
+			@override
+			public void startVehicle()
+			{
+		  
+			}
+			
+			@override
+			public void electricalEngine()
+			{
+		  
+		  
+		  }
+		  Train implements Vehicle
+		  {
+			@override
+			public void startVehicle()
+			{
+		  
+			}
+			
+			@override
+			public void electricalEngine()
+			{
+			
+			}
+		  
+		  
+		  }
+		  
+
+FI[SAM]:
+---
+A interface which is having only one abstract method called as Funcational Interface.
+
+
+-> We can use any no of default methods
+-> We can use any no of static methods
+Predicate --> test()
+Function -->  apply()
+Consumer  --> accept()
+Supplier  --> get()
+
+Callable
+Runnable
+Comparator
+
+Predicate --> test()
+---------------------
 
 
 

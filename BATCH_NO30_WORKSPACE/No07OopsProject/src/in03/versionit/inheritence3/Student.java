@@ -10,7 +10,7 @@ public class Student extends CollegeMember{
 		// TODO Auto-generated constructor stub
 	}
 
-	void printData()
+	public void printData()
 	{
 		System.out.println(super.name);
 		System.out.println(super.id);

@@ -5,6 +5,8 @@ public class Employee {
 	String name;
 	int age;
 	double salary;
+	
+	static int hike_sal;
 
 	void takeInputs(String l_name, int l_age, double l_salary) {
 		name = l_name;
@@ -17,5 +19,11 @@ public class Employee {
 		System.out.println(age);
 		System.out.println(salary);
 	}
+	
+	static void getMessage()
+	{
+		System.out.println("Hello From VersionIT");
+	}
+	
 
 }

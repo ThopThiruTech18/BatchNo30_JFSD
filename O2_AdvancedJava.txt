@@ -1,0 +1,39 @@
+JDBC API:
+--------
+
+
+
+
+CLASS PATH OR BUILD PATH:
+--------------------------
+Where out jar files available in the ide.
+
+Steps to communicate the database:[CRUD]
+-------------------------------------------
+0) Register The driver
+1) Get The connection 
+2) CreateStatement / PrepareStatement / Callable Statement
+3) Prepare the query /Execute the query 
+4) Close the connection
+
+
+
+update:
+---------
+
+UPDATE student
+SET student_name = 'hari krishna'
+WHERE id := 9;
+
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+
+delete:
+-------
+
+DELETE FROM table_name WHERE condition;
+
+
