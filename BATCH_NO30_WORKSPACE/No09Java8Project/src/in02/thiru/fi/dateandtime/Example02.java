@@ -1,11 +1,12 @@
 package in02.thiru.fi.dateandtime;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Example02 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ParseException {
 		
 		Date date=new Date();
 		System.out.println(date);
@@ -18,6 +19,15 @@ public class Example02 {
 		
 		String formattedTime = sdf2.format(date);
 		System.out.println(formattedTime);
+		
+		
+		SimpleDateFormat sdf3=new SimpleDateFormat("dd-MM-yyyy");
+		Date parse = sdf3.parse("29-01-2026");
+		
+		System.out.println(parse);
+		
+		
+		
 		
 		
 		
