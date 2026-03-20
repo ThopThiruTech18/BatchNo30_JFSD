@@ -1,23 +1,40 @@
 package in.thiru;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class BooksDao {
 
-	static String URL = "jdbc:mysql://localhost:3306/studentdb2";
-	static String USER_NAME = "root";
-	static String PAZZWORD = "123456";
+//	URL = jdbc:mysql://localhost:3306/studentdb2
+//		USER_NAME = root
+//		PASSWORD = 123456
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args) throws IOException {
+		
+	
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the price : ");
 		int price = scanner.nextInt();
+		
+		File f=new File("C:\\Users\\hp\\Desktop\\VERSION_IT\\BATCH_NO30\\ADVANCED_JAVA_WORKSPACE\\N001Project\\src\\DB.propeties");
+		FileInputStream fis=new FileInputStream(f);
+		
+		Properties ps=new Properties();
+		ps.load(fis);
+		
+		String URL = ps.getProperty("URL");
+		String USER_NAME = ps.getProperty("USER_NAME");
+		String PAZZWORD = ps.getProperty("PAZZWORD");
+		
 
 		try {
 			Connection connection = DriverManager.getConnection(URL, USER_NAME, PAZZWORD);

@@ -1,0 +1,131 @@
+SpringBoot;
+------------
+1)Programming Language
+2)Technologies
+3)Frameworks
+
+1)Programming Language:
+-----------------------
+It is used to communicate with computers[H->M].
+Java is also called as a programming language.
+
+Ex: C,C++,JAVA,PYTHON,.NET,PHP.....
+
+2)Technologies
+---------------
+Technlogies are developed based on the programming lanuages only.
+
+EX: JDBC,SERVLET,JSP.
+
+
+Disadvantages
+------------------
+Duplicate(Boiler plate code)
+More lines of the code
+More exception
+Maintenence is difficult
+
+JDBC:
+----
+Employee
+
+Insert --> 10  --> save(employee)
+Update --> 10  --> save(employee) -> ename->101 thiru,50000 -> thirumalesh,5000
+Delete --> 10  --> delete(employee);
+Get    --> 10  --> findById(id)
+
+100 Tables --> 100 DAO X 10 METHODS X 10 LINES = 10000  [JDBC]
+100 Tables --> 100 DAO                         = 100 LINES
+
+
+SERVLET:
+--------
+request.getParam()
+Provide the validation
+CreateObject
+Convert the data from entity to DTO object
+
+
+Spring Frameworks
+-------------------
+It is semideveloped project
+Project = Business logic +  Duplicate logic
+It is free and open source
+Sprirg came into the market in the year 2004
+
+-> Spring is an application development framework
+
+-> Spring provides support for end to end application development
+
+-> Spring is java based framework
+
+-> Spring is free of cost
+
+-> Spring released in the year of 2004 (1.x)
+
+-> The current  version of spring is 7.x (2025)
+
+=====================
+Spring Architecture
+=====================
+
+-> Spring framework developed in modular fashion
+
+-> Spring Modules are loosely copuled (independent)
+
+-> We have several modules in spring framework like below
+
+Spring Modules:
+---------------
+Spring Core
+Spring context
+Spring DAO/JDBC
+Spring ORM
+Spring Web
+Spring Rest 
+Spring AOP
+Spring Batch
+Spring Cloude(Microservices)
+Spring Security(Authentication,Authorization)
+
+
+20+ plus
+
+
+
+Spring Core
+-----------
+It is base module it is providing the fundamental concepts of the spring.
+
+1)IOC(IOC CONTAINER)
+2)DI(DEPENDENCY INJECTION)
+3)Autowiring
+
+
+If we use the spring core module we achive the loosly coupling
+
+Spring context
+--------------
+what are the configurations are required for the application, those configurations
+will be taking care by context module.
+
+Spring DAO/JDBC
+---------------
+Spring ORM
+Spring Web
+Spring Rest 
+Spring AOP
+Spring Batch
+Spring Cloude(Microservices)
+Spring Security(Authentication,Authorization)
+
+
+
+
+
+
+
+
+
+
+

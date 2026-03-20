@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ProductDto {
+public class ProductBatchDto {
 	
 	static String URL = "jdbc:mysql://localhost:3306/studentdb2";
 	static String USER_NAME = "root";

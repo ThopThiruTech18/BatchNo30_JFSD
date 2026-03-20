@@ -19,8 +19,8 @@ public class ConnectionPoolingExample2 {
 		config.setUsername(USER_NAME);
 		config.setPassword(PAZZWORD);
 
-		config.setMinimumIdle(10);
-		config.setMaximumPoolSize(20);
+		config.setMinimumIdle(5);
+		config.setMaximumPoolSize(8);
 
 		
 		HikariDataSource dataSource = new HikariDataSource(config);
@@ -30,7 +30,7 @@ public class ConnectionPoolingExample2 {
 		dataSource.getConnection();
 		dataSource.getConnection();
 		dataSource.getConnection();
-
+		dataSource.getConnection();
 		dataSource.getConnection();
 		dataSource.getConnection();
 		dataSource.getConnection();

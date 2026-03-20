@@ -1,0 +1,5 @@
+URL = jdbc:mysql://localhost:3306/studentdb2
+USER_NAME = root
+PAZZWORD = 123456
+POOL_SIZE=10
+

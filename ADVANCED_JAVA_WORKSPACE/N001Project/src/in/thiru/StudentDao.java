@@ -8,9 +8,7 @@ import java.sql.Statement;
 
 public class StudentDao {
 
-	static String URL = "jdbc:mysql://localhost:3306/studentdb2";
-	static String USER_NAME = "root";
-	static String PAZZWORD = "123456";
+	
 	static String INSERT_QUERY = "INSERT INTO STUDENT VALUES(103,'Vijay',97)";
 	static String UPDATE_QUERY = "UPDATE student\r\n"
 			+ "SET student_name = 'Pavan Kalyan'\r\n"
@@ -22,30 +20,30 @@ public class StudentDao {
 	
 //	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 //		insertStudent();
 
 //		selectStudent();
 		
-//		updateStudent();
+		updateStudent();
 		
-		deleteStudent();
+//		deleteStudent();
 		
 	}
 
-	private static void selectStudent() {
+	private static void selectStudent() throws Exception {
 		// select query
 
 		// Step-1:Load the driver / Register the driver[Option]
 
 		try {
 			// Step-2:Get the connection
-			Connection conn = DriverManager.getConnection(URL, USER_NAME, PAZZWORD);
+			Connection dbConnection = ConnectionFactory.getDBConnection();
 			System.out.println("Connection Established...");
 
 			// Step-3:CreateStatement/PrepareStatement/CallableStatement
-			Statement stmt = conn.createStatement();
+			Statement stmt = dbConnection.createStatement();
 			// Step-4:Execute the query
 
 			ResultSet resultSet = stmt.executeQuery(SELECT_QUERY);
@@ -58,7 +56,7 @@ public class StudentDao {
 				System.out.println(student_id+" : "+student_name.toUpperCase()+" : "+student_marks);
 			}
 
-			conn.close();
+			dbConnection.close();
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -69,22 +67,22 @@ public class StudentDao {
 		// Step-6:Close the connection
 	}
 
-	private static void insertStudent() {
+	private static void insertStudent() throws Exception {
 		// Step-1:Load the driver / Register the driver[Option]
 
 		try {
 			// Step-2:Get the connection
-			Connection conn = DriverManager.getConnection(URL, USER_NAME, PAZZWORD);
 			System.out.println("Connection Established...");
 
 			// Step-3:CreateStatement/PrepareStatement/CallableStatement
-			Statement stmt = conn.createStatement();
+			Connection dbConnection = ConnectionFactory.getDBConnection();
+			Statement stmt = dbConnection.createStatement();
 			// Step-4:Execute the query
 
 			int count = stmt.executeUpdate(INSERT_QUERY);
 			System.out.println("Student Records count is : " + count);
 
-			conn.close();
+			dbConnection.close();
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -96,22 +94,22 @@ public class StudentDao {
 	}
 	
 	
-	private static void updateStudent() {
+	private static void updateStudent() throws Exception {
 		// Step-1:Load the driver / Register the driver[Option]
 
 		try {
 			// Step-2:Get the connection
-			Connection conn = DriverManager.getConnection(URL, USER_NAME, PAZZWORD);
+			Connection dbConnection = ConnectionFactory.getDBConnection();
 			System.out.println("Connection Established...");
 
 			// Step-3:CreateStatement/PrepareStatement/CallableStatement
-			Statement stmt = conn.createStatement();
+			Statement stmt = dbConnection.createStatement();
 			// Step-4:Execute the query
 
 			int count = stmt.executeUpdate(UPDATE_QUERY);
 			System.out.println("Student Records updated & count is : " + count);
 
-			conn.close();
+			dbConnection.close();
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
@@ -123,22 +121,21 @@ public class StudentDao {
 	}
 	
 	
-	private static void deleteStudent() {
+	private static void deleteStudent() throws Exception {
 		// Step-1:Load the driver / Register the driver[Option]
 
 		try {
 			// Step-2:Get the connection
-			Connection conn = DriverManager.getConnection(URL, USER_NAME, PAZZWORD);
 			System.out.println("Connection Established...");
 
 			// Step-3:CreateStatement/PrepareStatement/CallableStatement
-			Statement stmt = conn.createStatement();
+			Connection dbConnection = ConnectionFactory.getDBConnection();
 			// Step-4:Execute the query
-
-			int count = stmt.executeUpdate(DELETE_QUERY);
+			Statement createStatement = dbConnection.createStatement();
+			int count = createStatement.executeUpdate(DELETE_QUERY);
 			System.out.println("Student Records DELETED & count is : " + count);
 
-			conn.close();
+			dbConnection.close();
 
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
